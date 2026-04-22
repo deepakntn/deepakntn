@@ -1,42 +1,85 @@
 .container{
-    width:100vww;
     height:100vh;
-    background-color: blanchedalmond;
-    background-image: -moz-repeating-linear-gradient(135deg,#8BC6EC 0% ,#9599E2 100%);
-    display:flex;
+    width:100vw;
+    background-color: rgb(177, 126, 50);
+    display: flex;
     justify-content: center;
     align-items: center;
+    background-image: -moz-repeating-linear-gradient(232deg);
 
+    
 }
 *{
-    margin: 0;
+    margin:0;
     padding:0;
+    box-sizing: border-box;
+
+
 }
 .card{
-    width:360px;
-    height:500px;
-    background-color: aliceblue;
+    width:400px;
+    height:600px;
+    background-color: azure;
     border-radius: 20px;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap:40;
-    padding:20px;
-    display: flex;
-
+    gap:5px;
 }
 .card img{
-    height: 57% ;
-    border-radius: 10px;
+    width:100%;
+    height:30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.card h2{
-    font-size: 1.5rem;
-    font-weight:bold;
+.textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    width:75%;
+
+}
+#amountBox{
+    width:80%;
+    height:10%;
+    background-color: aquamarine;
+    border-radius: 5px;
     margin:10px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left:20px;
 
 }
-.card p{
-    font-size:1.2rem;
-    
-}
+#leftBox{
+    height:100%;
+    display: flex;
+    gap:15px;
+    align-items: center;
+    width: fit-content;
 
+}
+.imgBox img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50px;
+    display: flex;
+}
+#paymentButton{
+    width:80%;
+    height:9%;
+    background-color: rgb(126, 11, 234);
+    border-radius: 10px;
+    color:white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),0.6px 6px rgba(0,0,0,0.23);
+    margin:10px;
+}
+.cancleBox a{
+    text-decoration: none;
+    color:rgb(54, 52, 52);
+    font-weight:bold;
+    margin: 10px;
+    font-size:large;
+}
